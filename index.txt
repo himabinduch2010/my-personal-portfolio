@@ -2,23 +2,24 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Venkata Hima Bindu Cheemalapati
+Venkata Hima Bindu Cheemalapati
+Full Stack Software Developer
 
 Show Contacts
 
 Email
-richard@example.com
+himabinduch2010@gmail.com
 
 Phone
-+1 (213) 352-2795
+(Add your phone number if you want)
 
 Birthday
-June 23, 1982
+(Add your birthday if you want)
 
 Location
-Sacramento, California, USA
+Dallas, Texas, USA
+
 
 # navbar
 
@@ -28,55 +29,56 @@ Portfolio
 Blog
 Contact
 
+
 # about
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+Full-Stack Software Engineer with 7+ years of experience designing, developing, and supporting scalable enterprise applications in banking and financial services. Strong expertise in Java, Spring Boot, RESTful APIs, microservices, and modern frontend frameworks including React and Angular.
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+I work across the full SDLC—from requirements and design to development, testing, deployment, and production support—using Agile/Scrum. I focus on building secure, high-performance applications and collaborating with cross-functional teams to deliver reliable solutions.
 
 
 ## service
 
 What i'm doing
 
-alt = design icon
-Web design
-The most modern and high-quality design made at a professional level.
+alt = backend icon
+Backend & Microservices
+Building Spring Boot microservices, REST APIs, business logic, validations, and integrations.
 
-alt = Web development icon
-Web development
-High-quality development of sites at the professional level.
+alt = frontend icon
+Frontend Development
+Developing responsive UIs using React/Angular, HTML, CSS, JavaScript, and UI integrations with APIs.
 
-alt = mobile app icon
-Mobile apps
-Professional development of applications for iOS and Android.
+alt = cloud icon
+Cloud & Deployments
+Supporting builds and deployments using Maven/Jenkins; AWS exposure (EC2, S3, IAM, CloudWatch).
 
-alt = camera icon
-Photography
-I make high-quality photos of any category at a professional level.
+alt = testing icon
+Testing & Production Support
+Writing unit tests (JUnit/Mockito), debugging issues, optimizing SQL, and improving application stability.
 
 
 ## testimonials
 
 Testimonials
 
-alt = Daniel lewis
-Daniel lewis
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+alt = Team Lead
+Team Lead
+Hima consistently delivered high-quality features on time, handled production issues confidently, and collaborated well across teams.
 
-alt = Jessica miller
-Jessica miller
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+alt = Senior Engineer
+Senior Engineer
+Strong Java/Spring Boot skills with an excellent understanding of microservices, SQL optimization, and clean coding practices.
 
-alt = Emily evans
-Emily evans
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+alt = Product Owner
+Product Owner
+Proactive, reliable, and detail-oriented—quickly understands requirements and delivers stable solutions with clear communication.
 
-alt = Henry william
-Henry william
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+alt = Colleague
+Colleague
+A great team player with strong debugging skills and complete ownership from development through deployment.
 
 
 ## clients
@@ -84,7 +86,9 @@ Richard was hired to create a corporate identity. We were very pleased with the 
 Clients
 
 alt = client logo
-
+Citi Bank
+Citizens Financial Group
+Enterprise Applications
 
 
 # resume
@@ -93,43 +97,40 @@ Resume
 
 Education
 
-University school of the arts
-2007 — 2008
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Southern Arkansas University
+Master’s in Computer Science
+Focused on software engineering, systems, and scalable application development.
 
-New york academy of art
-2006 — 2007
-Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
-
-High school of art and design
-2002 — 2004
-Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+MVGR College of Engineering
+Bachelor’s in Computer Science & Engineering
+Strong foundation in programming, databases, and web technologies.
 
 Experience
 
-Creative director
-2015 — Present
-Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
+Software Engineer — Citi Bank (Dallas, TX)
+Feb 2024 — Present
+Commercial banking risk analysis platform supporting loan disbursement workflows (collateral, facility, underwriting, maker-checker approvals). Built Java/Spring components, REST APIs, validations, logging, and optimized SQL for performance. Supported builds/deployments on Tomcat.
 
-Art director
-2013 — 2015
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Full Stack Developer — Tata Consultancy Services (Hyderabad, IN)
+Feb 2022 — Aug 2023
+Graph-based analytics platform using Neo4j. Implemented K-Shortest Path logic (Yen’s algorithm), data ingestion & delta sync from Oracle SQL to Neo4j, REST APIs, and UI screens using HTML/CSS/JavaScript.
 
-Web designer
-2010 — 2013
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Software Developer — Citizens Financial Group (Hyderabad, IN)
+Aug 2019 — Nov 2021
+Loan origination & servicing platform. Developed Spring Boot REST APIs, validations, integrations, React UI workflows, and supported AWS deployments (EC2/S3/IAM/CloudWatch) with CI/CD.
+
+Java Developer — Evolve Technologies (Hyderabad, IN)
+Feb 2018 — Aug 2019
+Built Java/Spring backend services, REST APIs, database integration with JDBC/Hibernate, UI screens with HTML/CSS/JavaScript, and supported Tomcat deployments.
 
 My skills
 
-Web design
-80%
-Graphic design
-70%
-Branding
-90%
-WordPress
-50%
-
+Java / Spring Boot / Microservices
+REST APIs / JPA / Hibernate / JDBC
+SQL (Oracle, MySQL) / Performance Tuning
+Kafka / ActiveMQ
+React / Angular / JavaScript / HTML / CSS
+AWS / Docker / Kubernetes / Jenkins / Maven
 
 
 # portfolio
@@ -137,94 +138,48 @@ WordPress
 Portfolio
 
 All
-Web design
-Applications
-Web development
+Backend
+Full Stack
+Cloud
 
 Select category
 All
-Web design
-Applications
-Web development
+Backend
+Full Stack
+Cloud
 
-alt = finance
-Finance
-Web development
+alt = banking risk platform
+Banking Risk Analysis Platform
+Backend
 
-alt = orizon
-Orizon
-Web development
+alt = graph analytics
+Graph Analytics & Routing (Neo4j)
+Backend
 
-alt = fundo
-Fundo
-Web design
+alt = loan platform
+Loan Origination & Servicing Platform
+Full Stack
 
-alt = brawlhalla
-Brawlhalla
-Applications
-
-alt = dsm.
-DSM.
-Web design
-
-alt = metaspark
-MetaSpark
-Web design
-
-alt = summary
-Summary
-Web development
-
-alt = task manager
-Task Manager
-Applications
-
-alt = arrival
-Arrival
-Web development
-
+alt = cloud cicd
+Cloud Deployments & CI/CD
+Cloud
 
 
 # blog
 
 Blog
 
-alt = Design conferences in 2022
-Design
-Fab 23, 2022
-Design conferences in 2022
-Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+alt = Spring Boot Microservices
+Backend
+Jan 07, 2026
+Spring Boot Microservices - Best Practices
+A practical guide to building clean APIs, validations, and production-ready microservices.
 
-alt = Best fonts every designer
-Design
-Fab 23, 2022
-Best fonts every designer
-Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-
-alt = Design digest #80
-Design
-Fab 23, 2022
-Design digest #80
-Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-
-alt = UI interactions of the week
-Design
-Fab 23, 2022
-UI interactions of the week
-Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-
-alt = The forgotten art of spacing
-Design
-Fab 23, 2022
-The Forgotten Art Of Spacing
-Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-alt = Design digest #79
-Design
-Fab 23, 2022
-Design Digest #79
-Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-
+alt = Kafka for Java Developers
+Messaging
+Jan 07, 2026
+Kafka Basics for Java Developers
+Producers, consumers, topics, and integrating Kafka with Spring Boot.
 
 
 # contact
