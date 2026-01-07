@@ -29,37 +29,12 @@
         <div class="sidebar-info">
 
             <figure class="avatar-box">
-                <!-- Female Avatar SVG -->
-                <svg width="80" height="80" viewBox="0 0 80 80" aria-label="Female avatar" role="img">
-                    <defs>
-                        <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-                            <stop offset="0%" stop-color="#ff6aa2"/>
-                            <stop offset="100%" stop-color="#7c3aed"/>
-                        </linearGradient>
-                    </defs>
-
-                    <circle cx="40" cy="40" r="40" fill="url(#bgGrad)" />
-
-                    <!-- Hair -->
-                    <path d="M18 36c0-15 10-24 22-24s22 9 22 24c0 8-4 10-4 10s-3-12-18-12-18 12-18 12-4-2-4-10z" fill="#1f2937"/>
-
-                    <!-- Face -->
-                    <circle cx="40" cy="42" r="13" fill="#fde2cf"/>
-
-                    <!-- Eyes -->
-                    <circle cx="35" cy="40" r="1.5" fill="#111827"/>
-                    <circle cx="45" cy="40" r="1.5" fill="#111827"/>
-
-                    <!-- Smile -->
-                    <path d="M34 45c2 2 10 2 12 0" stroke="#111827" stroke-width="1.5" fill="none"/>
-
-                    <!-- Body -->
-                    <path d="M14 82c2-18 18-26 26-28 6 2 14 2 20 0 8 2 24 10 26 28H14z" fill="#111827"/>
-                </svg>
+                <!-- Optional: replace my-avatar.png with your photo (same filename) -->
+                <img src="./assets/images/avatar-2.png" alt="Venkata Hima Bindu Cheemalapati" width="80">
             </figure>
 
             <div class="info-content">
-                <h1 class="name">Venkata Hima Bindu Cheemalapati</h1>
+                <h1 class="name" title="Venkata Hima Bindu Cheemalapati">Venkata Hima Bindu Cheemalapati</h1>
                 <p class="title">Full Stack Software Developer</p>
             </div>
 
@@ -76,30 +51,50 @@
 
             <ul class="contacts-list">
 
+                <!-- Email -->
                 <li class="contact-item">
                     <div class="icon-box">
                         <ion-icon name="mail-outline"></ion-icon>
                     </div>
+
                     <div class="contact-info">
                         <p class="contact-title">Email</p>
                         <a href="mailto:himabinduch2010@gmail.com" class="contact-link">himabinduch2010@gmail.com</a>
                     </div>
                 </li>
 
+                <!-- Phone (optional) -->
+                <!-- Uncomment and add your number if you want it visible -->
+                <!--
+                <li class="contact-item">
+                  <div class="icon-box">
+                    <ion-icon name="phone-portrait-outline"></ion-icon>
+                  </div>
+                  <div class="contact-info">
+                    <p class="contact-title">Phone</p>
+                    <a href="tel:+1XXXXXXXXXX" class="contact-link">+1 (XXX) XXX-XXXX</a>
+                  </div>
+                </li>
+                -->
+
+                <!-- Location -->
                 <li class="contact-item">
                     <div class="icon-box">
                         <ion-icon name="location-outline"></ion-icon>
                     </div>
+
                     <div class="contact-info">
                         <p class="contact-title">Location</p>
                         <address>Dallas, Texas, USA</address>
                     </div>
                 </li>
 
+                <!-- GitHub -->
                 <li class="contact-item">
                     <div class="icon-box">
                         <ion-icon name="logo-github"></ion-icon>
                     </div>
+
                     <div class="contact-info">
                         <p class="contact-title">GitHub</p>
                         <a href="https://github.com/himabinduch2010" target="_blank" class="contact-link">himabinduch2010</a>
@@ -112,20 +107,23 @@
 
             <ul class="social-list">
 
+                <!-- LinkedIn (add your link) -->
                 <li class="social-item">
-                    <a href="#" class="social-link" title="LinkedIn">
+                    <a href="#" class="social-link" title="LinkedIn (add your URL)">
                         <ion-icon name="logo-linkedin"></ion-icon>
                     </a>
                 </li>
 
+                <!-- Medium (add your link later) -->
                 <li class="social-item">
-                    <a href="#" class="social-link" title="Medium">
+                    <a href="#" class="social-link" title="Medium (add your URL)">
                         <ion-icon name="logo-medium"></ion-icon>
                     </a>
                 </li>
 
+                <!-- GitHub -->
                 <li class="social-item">
-                    <a href="https://github.com/himabinduch2010" target="_blank" class="social-link">
+                    <a href="https://github.com/himabinduch2010" target="_blank" class="social-link" title="GitHub">
                         <ion-icon name="logo-github"></ion-icon>
                     </a>
                 </li>
@@ -155,14 +153,14 @@
         <article class="about active" data-page="about">
 
             <header>
-                <h2 class="h2 article-title">About Me</h2>
+                <h2 class="h2 article-title">About me</h2>
             </header>
 
             <section class="about-text">
                 <p>
-                    Full-Stack Software Engineer with 7+ years of experience designing, developing, and supporting scalable enterprise
-                    applications in banking and financial services. Strong expertise in Java, Spring Boot, RESTful APIs, microservices,
-                    and modern frontend frameworks including React and Angular.
+                    Full-Stack Software Engineer with 7+ years of experience designing, developing, and supporting scalable
+                    enterprise applications in banking and financial services. Strong expertise in Java, Spring Boot, RESTful APIs,
+                    microservices, and modern frontend frameworks including React and Angular.
                 </p>
                 <p>
                     I work across the full SDLC—from requirements and design to development, testing, deployment, and production
@@ -171,10 +169,9 @@
                 </p>
             </section>
 
-            <!-- WHAT I'M DOING -->
+            <!-- service -->
             <section class="service">
-
-                <h3 class="h3 service-title">What I'm Doing</h3>
+                <h3 class="h3 service-title">What I'm doing</h3>
 
                 <ul class="service-list">
 
@@ -182,6 +179,7 @@
                         <div class="service-icon-box">
                             <img src="./assets/images/icon-dev.svg" alt="backend icon" width="40">
                         </div>
+
                         <div class="service-content-box">
                             <h4 class="h4 service-item-title">Backend & Microservices</h4>
                             <p class="service-item-text">
@@ -194,10 +192,11 @@
                         <div class="service-icon-box">
                             <img src="./assets/images/icon-design.svg" alt="frontend icon" width="40">
                         </div>
+
                         <div class="service-content-box">
                             <h4 class="h4 service-item-title">Frontend Development</h4>
                             <p class="service-item-text">
-                                Developing responsive UIs using React/Angular, HTML, CSS, JavaScript, and API integrations.
+                                Developing responsive UIs using React/Angular, HTML, CSS, JavaScript, and UI integrations with APIs.
                             </p>
                         </div>
                     </li>
@@ -206,99 +205,108 @@
                         <div class="service-icon-box">
                             <img src="./assets/images/icon-app.svg" alt="cloud icon" width="40">
                         </div>
+
                         <div class="service-content-box">
                             <h4 class="h4 service-item-title">Cloud & Deployments</h4>
                             <p class="service-item-text">
-                                CI/CD with Maven/Jenkins and AWS (EC2, S3, IAM, CloudWatch).
+                                Supporting builds and deployments using Maven/Jenkins; AWS exposure (EC2, S3, IAM, CloudWatch).
                             </p>
                         </div>
                     </li>
 
                     <li class="service-item">
                         <div class="service-icon-box">
-                            <img src="./assets/images/icon-photo.svg" alt="testing icon" width="40">
+                            <img src="./assets/images/icon-photo.svg" alt="quality icon" width="40">
                         </div>
+
                         <div class="service-content-box">
                             <h4 class="h4 service-item-title">Testing & Production Support</h4>
                             <p class="service-item-text">
-                                Unit testing (JUnit/Mockito), debugging, SQL optimization, and stability improvements.
+                                Writing unit tests (JUnit/Mockito), debugging issues, optimizing SQL, and improving application stability.
                             </p>
                         </div>
                     </li>
 
                 </ul>
-
             </section>
 
-            <!-- SKILLS -->
+            <!-- ✅ SKILLS (Added) -->
             <section class="skill">
-
                 <h3 class="h3 skills-title">Skills</h3>
 
-                <ul class="skills-list content-card">
+                <ul class="skill-card-list">
 
-                    <li class="skills-item">
-                        <div class="title-wrapper">
-                            <h5 class="h5">Java / Spring Boot / Microservices</h5>
-                            <data value="90">90%</data>
-                        </div>
-                        <div class="skill-progress-bg">
-                            <div class="skill-progress-fill" style="width: 90%;"></div>
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                        <div class="skill-text">
+                            <h4 class="h4">Java</h4>
                         </div>
                     </li>
 
-                    <li class="skills-item">
-                        <div class="title-wrapper">
-                            <h5 class="h5">REST APIs / JPA / Hibernate / JDBC</h5>
-                            <data value="88">88%</data>
-                        </div>
-                        <div class="skill-progress-bg">
-                            <div class="skill-progress-fill" style="width: 88%;"></div>
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot">
+                        <div class="skill-text">
+                            <h4 class="h4">Spring Boot</h4>
                         </div>
                     </li>
 
-                    <li class="skills-item">
-                        <div class="title-wrapper">
-                            <h5 class="h5">SQL (Oracle, MySQL)</h5>
-                            <data value="85">85%</data>
-                        </div>
-                        <div class="skill-progress-bg">
-                            <div class="skill-progress-fill" style="width: 85%;"></div>
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Kafka">
+                        <div class="skill-text">
+                            <h4 class="h4">Kafka</h4>
                         </div>
                     </li>
 
-                    <li class="skills-item">
-                        <div class="title-wrapper">
-                            <h5 class="h5">Kafka / Messaging</h5>
-                            <data value="75">75%</data>
-                        </div>
-                        <div class="skill-progress-bg">
-                            <div class="skill-progress-fill" style="width: 75%;"></div>
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
+                        <div class="skill-text">
+                            <h4 class="h4">SQL (Oracle / MySQL)</h4>
                         </div>
                     </li>
 
-                    <li class="skills-item">
-                        <div class="title-wrapper">
-                            <h5 class="h5">React / Angular / JavaScript / HTML / CSS</h5>
-                            <data value="78">78%</data>
-                        </div>
-                        <div class="skill-progress-bg">
-                            <div class="skill-progress-fill" style="width: 78%;"></div>
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                        <div class="skill-text">
+                            <h4 class="h4">React</h4>
                         </div>
                     </li>
 
-                    <li class="skills-item">
-                        <div class="title-wrapper">
-                            <h5 class="h5">AWS / Docker / Kubernetes / Jenkins</h5>
-                            <data value="70">70%</data>
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular">
+                        <div class="skill-text">
+                            <h4 class="h4">Angular</h4>
                         </div>
-                        <div class="skill-progress-bg">
-                            <div class="skill-progress-fill" style="width: 70%;"></div>
+                    </li>
+
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                        <div class="skill-text">
+                            <h4 class="h4">Docker</h4>
+                        </div>
+                    </li>
+
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes">
+                        <div class="skill-text">
+                            <h4 class="h4">Kubernetes</h4>
+                        </div>
+                    </li>
+
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg" alt="AWS">
+                        <div class="skill-text">
+                            <h4 class="h4">AWS</h4>
+                        </div>
+                    </li>
+
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins">
+                        <div class="skill-text">
+                            <h4 class="h4">Jenkins</h4>
                         </div>
                     </li>
 
                 </ul>
-
             </section>
 
         </article>
@@ -310,8 +318,8 @@
                 <h2 class="h2 article-title">Resume</h2>
             </header>
 
+            <!-- Education -->
             <section class="timeline">
-
                 <div class="title-wrapper">
                     <div class="icon-box">
                         <ion-icon name="book-outline"></ion-icon>
@@ -324,19 +332,23 @@
                     <li class="timeline-item">
                         <h4 class="h4 timeline-item-title">Southern Arkansas University</h4>
                         <span>Master’s in Computer Science</span>
-                        <p class="timeline-text">Software engineering, systems, and scalable application development.</p>
+                        <p class="timeline-text">
+                            Coursework and projects focused on software engineering, systems, and building scalable applications.
+                        </p>
                     </li>
 
                     <li class="timeline-item">
                         <h4 class="h4 timeline-item-title">MVGR College of Engineering</h4>
                         <span>Bachelor’s in Computer Science & Engineering</span>
-                        <p class="timeline-text">Core foundation in programming, databases, and web technologies.</p>
+                        <p class="timeline-text">
+                            Core foundation in programming, data structures, databases, and web technologies.
+                        </p>
                     </li>
 
                 </ol>
-
             </section>
 
+            <!-- Experience -->
             <section class="timeline">
 
                 <div class="title-wrapper">
@@ -349,38 +361,309 @@
                 <ol class="timeline-list">
 
                     <li class="timeline-item">
-                        <h4 class="h4 timeline-item-title">Software Engineer — Citi Bank</h4>
+                        <h4 class="h4 timeline-item-title">Software Engineer — Citi Bank (Dallas, TX)</h4>
                         <span>Feb 2024 — Present</span>
                         <p class="timeline-text">
-                            Banking risk analysis platform. Java/Spring Boot APIs, validations, logging, SQL optimization, and Tomcat deployments.
+                            Commercial banking risk analysis platform supporting loan disbursement workflows (collateral, facility,
+                            underwriting, maker-checker approvals). Built Java/Spring components, REST APIs, validations, logging, and
+                            optimized SQL for performance. Supported builds/deployments on Tomcat.
                         </p>
                     </li>
 
                     <li class="timeline-item">
-                        <h4 class="h4 timeline-item-title">Full Stack Developer — TCS</h4>
+                        <h4 class="h4 timeline-item-title">Full Stack Developer — Tata Consultancy Services (Hyderabad, IN)</h4>
                         <span>Feb 2022 — Aug 2023</span>
                         <p class="timeline-text">
-                            Graph analytics platform using Neo4j, REST APIs, data ingestion, and frontend with HTML/CSS/JavaScript.
+                            Graph-based analytics platform using Neo4j. Implemented K-Shortest Path logic (Yen’s algorithm),
+                            data ingestion & delta sync from Oracle SQL to Neo4j, REST APIs, and UI screens using HTML/CSS/JavaScript.
                         </p>
                     </li>
 
                     <li class="timeline-item">
-                        <h4 class="h4 timeline-item-title">Software Developer — Citizens Financial</h4>
+                        <h4 class="h4 timeline-item-title">Software Developer — Citizens Financial Group (Hyderabad, IN)</h4>
                         <span>Aug 2019 — Nov 2021</span>
                         <p class="timeline-text">
-                            Loan origination platform. Spring Boot, React, AWS deployments, CI/CD with Jenkins and Maven.
+                            Loan origination & servicing platform. Developed Spring Boot REST APIs, implemented validations,
+                            integrated with internal systems, built React UI workflows, and supported AWS deployments (EC2/S3/IAM/CloudWatch)
+                            with CI/CD using Maven/Jenkins.
                         </p>
                     </li>
 
                     <li class="timeline-item">
-                        <h4 class="h4 timeline-item-title">Java Developer — Evolve Technologies</h4>
+                        <h4 class="h4 timeline-item-title">Java Developer — Evolve Technologies (Hyderabad, IN)</h4>
                         <span>Feb 2018 — Aug 2019</span>
                         <p class="timeline-text">
-                            Java/Spring backend, JSP UI, JDBC/Hibernate, and Tomcat deployments.
+                            Enterprise web application. Built Java/Spring backend services and REST APIs, integrated with databases
+                            using JDBC/Hibernate, developed JSP/HTML/CSS/JavaScript UI screens, and supported deployments on Tomcat.
                         </p>
                     </li>
 
                 </ol>
+
+            </section>
+
+            <!-- ✅ Skills (Replaced old percentage list with cards, no % ) -->
+            <section class="skill">
+                <h3 class="h3 skills-title">My skills</h3>
+
+                <ul class="skill-card-list">
+
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                        <div class="skill-text"><h4 class="h4">Java</h4></div>
+                    </li>
+
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot">
+                        <div class="skill-text"><h4 class="h4">Spring Boot</h4></div>
+                    </li>
+
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Kafka">
+                        <div class="skill-text"><h4 class="h4">Kafka</h4></div>
+                    </li>
+
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
+                        <div class="skill-text"><h4 class="h4">SQL (Oracle / MySQL)</h4></div>
+                    </li>
+
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                        <div class="skill-text"><h4 class="h4">React</h4></div>
+                    </li>
+
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular">
+                        <div class="skill-text"><h4 class="h4">Angular</h4></div>
+                    </li>
+
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                        <div class="skill-text"><h4 class="h4">Docker</h4></div>
+                    </li>
+
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes">
+                        <div class="skill-text"><h4 class="h4">Kubernetes</h4></div>
+                    </li>
+
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg" alt="AWS">
+                        <div class="skill-text"><h4 class="h4">AWS</h4></div>
+                    </li>
+
+                    <li class="skill-card">
+                        <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins">
+                        <div class="skill-text"><h4 class="h4">Jenkins</h4></div>
+                    </li>
+
+                </ul>
+            </section>
+
+        </article>
+
+        <!-- PORTFOLIO -->
+        <article class="portfolio" data-page="portfolio">
+
+            <header>
+                <h2 class="h2 article-title">Portfolio</h2>
+            </header>
+
+            <section class="projects">
+
+                <ul class="filter-list">
+                    <li class="filter-item">
+                        <button class="active" data-filter-btn>All</button>
+                    </li>
+                    <li class="filter-item">
+                        <button data-filter-btn>Backend</button>
+                    </li>
+                    <li class="filter-item">
+                        <button data-filter-btn>Full Stack</button>
+                    </li>
+                    <li class="filter-item">
+                        <button data-filter-btn>Cloud</button>
+                    </li>
+                </ul>
+
+                <div class="filter-select-box">
+                    <button class="filter-select" data-select>
+                        <div class="select-value" data-selecct-value>Select category</div>
+                        <div class="select-icon">
+                            <ion-icon name="chevron-down"></ion-icon>
+                        </div>
+                    </button>
+
+                    <ul class="select-list">
+                        <li class="select-item"><button data-select-item>All</button></li>
+                        <li class="select-item"><button data-select-item>Backend</button></li>
+                        <li class="select-item"><button data-select-item>Full Stack</button></li>
+                        <li class="select-item"><button data-select-item>Cloud</button></li>
+                    </ul>
+                </div>
+
+                <ul class="project-list">
+
+                    <!-- Case study projects (safe for banking) -->
+
+                    <li class="project-item active" data-filter-item data-category="backend">
+                        <a href="#">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+                                <img src="./assets/images/project-1.jpg" alt="Banking Risk Analysis Platform" loading="lazy">
+                            </figure>
+                            <h3 class="project-title">Banking Risk Analysis Platform</h3>
+                            <p class="project-category">Backend</p>
+                        </a>
+                    </li>
+
+                    <li class="project-item active" data-filter-item data-category="backend">
+                        <a href="#">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+                                <img src="./assets/images/project-2.png" alt="Graph Analytics & Routing (Neo4j)" loading="lazy">
+                            </figure>
+                            <h3 class="project-title">Graph Analytics & Routing (Neo4j)</h3>
+                            <p class="project-category">Backend</p>
+                        </a>
+                    </li>
+
+                    <li class="project-item active" data-filter-item data-category="full stack">
+                        <a href="#">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+                                <img src="./assets/images/project-3.jpg" alt="Loan Origination & Servicing Platform" loading="lazy">
+                            </figure>
+                            <h3 class="project-title">Loan Origination & Servicing Platform</h3>
+                            <p class="project-category">Full Stack</p>
+                        </a>
+                    </li>
+
+                    <li class="project-item active" data-filter-item data-category="cloud">
+                        <a href="#">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+                                <img src="./assets/images/project-4.png" alt="Cloud Deployments & CI/CD" loading="lazy">
+                            </figure>
+                            <h3 class="project-title">Cloud Deployments & CI/CD</h3>
+                            <p class="project-category">Cloud</p>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+        <!-- BLOG -->
+        <article class="blog" data-page="blog">
+
+            <header>
+                <h2 class="h2 article-title">Blog</h2>
+            </header>
+
+            <section class="blog-posts">
+
+                <p class="timeline-text" style="margin-bottom: 14px;">
+                    I write about Java, Spring Boot, microservices, Kafka, cloud deployments, and full-stack development.
+                    (Add your Medium link below when ready.)
+                </p>
+
+                <ul class="blog-posts-list">
+
+                    <li class="blog-post-item">
+                        <a href="#" target="_blank">
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog-1.jpg" alt="Spring Boot Microservices - Best Practices" loading="lazy">
+                            </figure>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <p class="blog-category">Backend</p>
+                                    <span class="dot"></span>
+                                    <time datetime="2026-01-07">Jan 07, 2026</time>
+                                </div>
+                                <h3 class="h3 blog-item-title">Spring Boot Microservices - Best Practices</h3>
+                                <p class="blog-text">
+                                    A practical guide to designing clean APIs, validations, error handling, and deployment-ready services.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="blog-post-item">
+                        <a href="#" target="_blank">
+                            <figure class="blog-banner-box">
+                                <img src="./assets/images/blog-2.jpg" alt="Kafka Basics for Java Developers" loading="lazy">
+                            </figure>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <p class="blog-category">Messaging</p>
+                                    <span class="dot"></span>
+                                    <time datetime="2026-01-07">Jan 07, 2026</time>
+                                </div>
+                                <h3 class="h3 blog-item-title">Kafka Basics for Java Developers</h3>
+                                <p class="blog-text">
+                                    Producers, consumers, topics, and how to integrate Kafka with Spring Boot.
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+        <!-- CONTACT -->
+        <article class="contact" data-page="contact">
+
+            <header>
+                <h2 class="h2 article-title">Contact</h2>
+            </header>
+
+            <section class="mapbox" data-mapbox>
+                <figure>
+                    <!-- Dallas, TX map -->
+                    <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107043.1992314315!2d-96.87232312512255!3d32.820352470134845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9b2f0f4d0b13%3A0x6f5f6b6b6b6b6b6b!2sDallas%2C%20TX%2C%20USA!5e0!3m2!1sen!2sus!4v1700000000000"
+                            width="400" height="300" loading="lazy"></iframe>
+                </figure>
+            </section>
+
+            <section class="contact-form">
+
+                <h3 class="h3 form-title">Contact Form</h3>
+
+                <form action="#" class="form" data-form>
+
+                    <div class="input-wrapper">
+                        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                    </div>
+
+                    <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+                    <button class="form-btn" type="submit" disabled data-form-btn>
+                        <ion-icon name="paper-plane"></ion-icon>
+                        <span>Send Message</span>
+                    </button>
+
+                </form>
+
+                <p class="timeline-text" style="margin-top: 14px;">
+                    Email me directly: <a href="mailto:himabinduch2010@gmail.com">himabinduch2010@gmail.com</a>
+                </p>
 
             </section>
 
@@ -398,4 +681,5 @@
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>

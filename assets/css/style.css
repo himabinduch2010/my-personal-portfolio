@@ -1880,3 +1880,32 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+.skill-card-list{
+  list-style:none;
+  padding:0;
+  margin:0;
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+.skill-card{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  padding:16px;
+  border-radius:16px;
+  background: var(--eerie-black-2);
+  box-shadow: var(--shadow-1);
+}
+
+.skill-logo{
+  width:38px;
+  height:38px;
+  flex:0 0 38px;
+}
+
+.skill-text .h4{
+  margin:0;
+  font-size:16px;
+}
